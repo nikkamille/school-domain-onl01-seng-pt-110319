@@ -8,5 +8,4 @@ class School
   end
   
   attr_reader :roster
-  binding.pry 
 end
