@@ -16,7 +16,7 @@ class School
   end
   
   def sort 
-    roster.sort_by
+    roster.sort_by { key
   end
   
 end
