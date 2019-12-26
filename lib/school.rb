@@ -3,11 +3,10 @@ class School
     @name = name
   end
   
-  def name=(name)
-    @name = name
-  end
+  attr_accessor :name
   
-  def name
-    @name
+  def roster(student_name)
+    @roster = roster
+    roster = {}
   end
 end
