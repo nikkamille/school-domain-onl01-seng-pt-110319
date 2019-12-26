@@ -12,7 +12,7 @@ class School
   end
   
   def grade(grade)
-    @grade = roster.student_name
+    @grade = roster
   end
   
 end
